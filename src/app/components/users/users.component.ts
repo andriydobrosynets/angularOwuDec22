@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {Observable} from "rxjs";
-import {HttpClient} from "@angular/common/http";
-import {UserService} from "../../services/user.service";
 import {IUser} from "../../models/IUser";
+import {UserService} from "../../services/user.service";
+
 
 
 @Component({
